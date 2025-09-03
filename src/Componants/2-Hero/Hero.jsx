@@ -6,22 +6,18 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
 
-    // دالة لتحميل السيرة الذاتية
     const downloadCV = () => {
-        // إنشاء رابط تحميل
         const link = document.createElement('a');
-        link.href = '/Image/Hero.png'; // استبدل هذا بالمسار الصحيح لملفك
-        link.download = 'Mohamed_Khaled_CV.png'; // اسم الملف عند التحميل
+        link.href = import.meta.env.BASE_URL + 'CV/Mohamed-Khaled.pdf';
+        link.download = 'Mohamed_Khaled_CV.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     };
 
-    // دالة لعرض السيرة الذاتية في نافذة جديدة
     const viewCV = () => {
-        window.open('/Image/Hero.png', '_blank');
+        window.open(import.meta.env.BASE_URL + 'CV/Mohamed-Khaled.pdf', '_blank');
     };
-
 
     return (
         <div className="hero-section">
@@ -51,7 +47,6 @@ export default function Hero() {
                     </ul>
                 </div>
 
-
                 <div className="download">
                     <button className="view-cv-btn" onClick={viewCV}>
                         <FontAwesomeIcon icon={faEye} /> View CV
@@ -70,10 +65,10 @@ export default function Hero() {
                 viewport={{ once: true }}
             >
                 <div className="avatar">
-                    <a href="/Image/Hero.png" target='_blank'>
-                        <img src="/Image/Hero.png" alt="not found" />
+                    <a href={import.meta.env.BASE_URL + "Image-optimized/Hero/Hero.png"} target='_blank'>
+                        <img src={import.meta.env.BASE_URL + "Image-optimized/Hero/Hero.png"} alt="Hero" />
                     </a>
-                    <FontAwesomeIcon className='check-icon' size='xl' icon={faCircleCheck} />
+                    <FontAwesomeIcon className='check-icon' size='lg' icon={faCircleCheck} />
                 </div>
             </motion.div>
 

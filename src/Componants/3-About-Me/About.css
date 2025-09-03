@@ -1,6 +1,6 @@
 .about-section {
     margin: var(--section-mr) 0;
-    padding: var(--section-p);
+    padding: var(--section-p) 20px;
     border-top: 1px solid var(--border);
     text-align: center;
 }
@@ -12,4 +12,12 @@
     letter-spacing: .5px;
     font-size: 18px;
     color: var(--title);
+}
+
+@media (max-width:767px) {
+    .about-section p {
+        width: 100%;
+        font-size: 14px;
+
+    }
 }

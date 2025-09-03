@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    gap: 30px;
-    height: 85vh;
+    gap: 50px;
+    min-height: 75vh;
 }
 
 .left-section,
@@ -19,11 +19,10 @@
 }
 
 
-
 .download {
     display: flex;
     gap: 15px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .download button {
@@ -35,14 +34,19 @@
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
     font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download button:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .view-cv-btn {
     background-color: #f0f0f0;
     color: #333;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     transition: var(--transition-tm);
 }
 
@@ -53,7 +57,6 @@
 .download-cv-btn {
     background-color: #3498db;
     color: white;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     transition: var(--transition-tm);
 }
 
@@ -115,7 +118,7 @@
 }
 
 .left-section h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--title);
 }
 
@@ -188,10 +191,14 @@
     }
 
     .download {
-        display: flex;
-        align-items: center;
         justify-content: center;
-        padding: 20px 0;
+    }
+
+}
+
+@media (max-width:767px) {
+    .left-section h1 {
+        font-size: 1.5rem;
     }
 
     .download button {
@@ -199,11 +206,7 @@
         font-size: 13px;
     }
 
-
-
 }
-
-
 
 @keyframes upDown {
     0% {

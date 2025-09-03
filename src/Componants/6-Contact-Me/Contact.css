@@ -1,7 +1,7 @@
 .contact-section {
     margin: var(--section-mr) 0;
     border-top: 1px solid var(--border);
-    padding: var(--section-p);
+    padding: var(--section-p) 20px;
 }
 
 .contact-section>p {
@@ -107,6 +107,23 @@
 }
 
 @media (max-width:768px) {
+
+    .contact-section>p {
+        text-align: center;
+        color: var(--subtitle);
+        font-size: 16px;
+        margin: 20px 0px;
+        text-transform: capitalize;
+        line-height: 1.5;
+    }
+
+
+    .contact-form .button {
+
+        width: 100%;
+
+    }
+
     .contact-section .contact-animation {
         display: none;
     }

@@ -6,7 +6,7 @@ import './Header.css';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem('theme') ?? 'light');
+    const [theme, setTheme] = useState(localStorage.getItem('theme') ?? 'dark');
 
     useEffect(() => {
         const root = window.document.body;

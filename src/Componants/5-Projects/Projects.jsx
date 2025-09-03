@@ -46,7 +46,7 @@ export default function Projects() {
                                 exit={{ opacity: 0, y: -40 }}
                                 transition={{ duration: 0.4, delay: i * 0.05 }}
                             >
-                                <div className="project-image"><img src={p.imgSrc} alt="" /></div>
+                                <div className="project-image"><img loading='lazy' src={`Image-optimized/Projects-image/${p.imgSrc}`} alt="" /></div>
                                 <div className="info">
                                     <h2>{p.projectName}</h2>
                                     <p>{p.projectDescription}</p>

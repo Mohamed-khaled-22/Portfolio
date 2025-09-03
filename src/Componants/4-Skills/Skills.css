@@ -1,6 +1,6 @@
 .skills-section {
     margin: var(--section-mr) 0;
-    padding: var(--section-p);
+    padding: var(--section-p) 20px;
     border-top: 1px solid var(--border);
 }
 
@@ -31,6 +31,6 @@
 /* media queries */
 @media (max-width: 768px) {
     .skills-section .container-skills {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
     }
 }

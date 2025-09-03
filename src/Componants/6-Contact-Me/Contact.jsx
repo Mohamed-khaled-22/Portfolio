@@ -43,7 +43,7 @@ export default function Contact() {
                 </form>
 
                 <div className="contact-animation">
-                    <img src="/Image/email.svg" alt="" />
+                    <img src="Image/email.svg" alt="" />
                 </div>
 
             </div>

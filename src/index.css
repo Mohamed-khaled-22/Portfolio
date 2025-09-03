@@ -25,7 +25,7 @@ body {
   --transition-tm: .2s;
   --icon-hover: #d4d4d8;
   --section-mr: 20px;
-  --section-p: 50px;
+  --section-p: 50px 20px;
   --ring: rgba(255, 255, 255, .14);
   --shadow-soft: rgba(0, 0, 0, .55);
   --shadow-deep: rgba(0, 0, 0, .8);

@@ -1,6 +1,16 @@
 export const myProjects = [
     {
-        imgSrc: '/Image/Portfolio.png',
+        imgSrc: 'E-commerce.png',
+        projectName: 'E-commerce',
+        projectDescription:
+            'E-commerce is a modern online store built with React and Vite, featuring product browsing, detailed pages, and a shopping cart. It uses React Router for smooth navigation and Redux for state management, all presented in a clean responsive layout with a user-friendly experience.',
+        liveDemo: 'https://mohamed-khaled-22.github.io/E-commerce/',
+        gitHub: 'https://github.com/Mohamed-khaled-22/E-commerce',
+        projectType: 'React',
+        isDone: false
+    }, 
+    {
+        imgSrc: 'Portfolio.png',
         projectName: 'Portfolio',
         projectDescription:
             "My personal portfolio is a responsive showcase built with React and pure CSS, featuring smooth animations powered by the Motion library. It presents all my projects in a clean and modern layout, with seamless Dark and Light mode support for an enhanced user experience.",
@@ -10,7 +20,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/weatherApp.png',
+        imgSrc: 'weatherApp.png',
         projectName: 'Weather-App',
         projectDescription:
             'A complete weather application that provides detailed weather information for any location worldwide. Built with React and Material UI, and powered by the OpenWeather API to deliver accurate real-time data with a clean and modern UI.',
@@ -20,7 +30,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/todo.png',
+        imgSrc: 'todo.png',
         projectName: 'To_do_List',
         projectDescription:
             'To-Do List is a dynamic task manager built with React and Material UI, featuring intuitive add, edit, and delete functionality within a responsive and polished interface.',
@@ -30,7 +40,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/criativo.png',
+        imgSrc: 'criativo.png',
         projectName: 'Criativo',
         projectDescription:
             'Criativo is a clean one-page creative agency template crafted with pure HTML and CSS. It showcases sections like home, about us, services, portfolio, blog, testimonials, and contact in a smooth, responsive layout.',
@@ -40,7 +50,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/insovia.png',
+        imgSrc: 'insovia.png',
         projectName: 'Insove',
         projectDescription:
             'Insove is a modern healthcare one-page website built with HTML, CSS, and Tailwind. It features a clean responsive layout with services and booking sections.',
@@ -50,7 +60,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/specialDesing.png',
+        imgSrc: 'specialDesing.png',
         projectName: 'Special-Desing',
         projectDescription:
             'Special Desing is a sleek one-page creative agency template built with HTML, CSS, and pure JavaScript. It includes sections like about, skills, gallery, timeline, features, testimonials, and contact—presented in a clean responsive flow.',
@@ -60,7 +70,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/imageEditor.png',
+        imgSrc: 'imageEditor.png',
         projectName: 'Image-Editor',
         projectDescription:
             'Image Editor is a lightweight single-page tool built with HTML, CSS, and vanilla JS. It allows real-time image adjustments—saturation, contrast, brightness, sepia, grayscale, blur, hue-rotate—and includes reset and download options.',
@@ -70,7 +80,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/hungman.png',
+        imgSrc: 'hungman.png',
         projectName: 'Hangman-Game',
         projectDescription:
             'Hangman Game is a classic word-guessing game built with pure HTML, CSS, and JavaScript. Players guess letters to uncover the word before running out of chances, with interactive, responsive feedback.',
@@ -80,7 +90,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/CRUDS.png',
+        imgSrc: 'CRUDS.png',
         projectName: 'CRUDS',
         projectDescription:
             'Cruds is a product management system built with pure HTML, CSS, and JavaScript. It supports creating, searching, updating, and deleting product entries with a clean responsive interface.',
@@ -90,7 +100,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/ques.png',
+        imgSrc: 'ques.png',
         projectName: 'Quiz-Application',
         projectDescription:
             'Quiz Application is a responsive quiz tool built with pure HTML, CSS, and JavaScript. It presents questions, accepts answers, and gives instant feedback—all wrapped in a clean, user-friendly interface.',
@@ -100,7 +110,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/todolist.png',
+        imgSrc: 'todolist.png',
         projectName: 'To-Do-List',
         projectDescription:
             'To-Do List is a simple task manager built with pure HTML, CSS, and JavaScript. It allows users to add and delete tasks in a responsive design.',
@@ -110,7 +120,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/bondi.png',
+        imgSrc: 'bondi.png',
         projectName: 'Bondi',
         projectDescription:
             'Bondi is a stylish one-page creative website built with Bootstrap. It features sections for services, portfolio, about, team, blog, and contact—all wrapped in an engaging responsive layout.',
@@ -120,7 +130,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/dashboard.png',
+        imgSrc: 'dashboard.png',
         projectName: 'Dashboard',
         projectDescription:
             'Dashboard is a clean single-page dashboard interface built with HTML, CSS (and optional framework like Bootstrap or JS). It displays key stats, charts, and insights in a responsive layout.',
@@ -130,7 +140,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/ELASY.png',
+        imgSrc: 'ELASY.png',
         projectName: 'ELASY',
         projectDescription:
             'ELASY is a comprehensive one-page blog-style website built with HTML and CSS. It organizes sections like articles, gallery, features, testimonials, services, skills, timeline, events, pricing plans, and contact in a clean, engaging layout.',
@@ -140,7 +150,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/kasper.png',
+        imgSrc: 'kasper.png',
         projectName: 'Kasper',
         projectDescription:
             'Kasper is a polished one-page creative template built with HTML and CSS. It features sections like services, portfolio, about, skills, pricing, testimonials, and contact in a sleek responsive design.',
@@ -150,7 +160,7 @@ export const myProjects = [
         isDone: true
     },
     {
-        imgSrc: '/Image/leon.png',
+        imgSrc: 'leon.png',
         projectName: 'Leon',
         projectDescription:
             'Leon is a minimal creative agency one-page template built with HTML and CSS. It features sections like services, portfolio, about, and contact, all wrapped in a clean and elegant layout.',
