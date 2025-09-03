@@ -14,7 +14,7 @@ import imageminPngquant from "imagemin-pngquant";
             ]
         });
 
-        // 2️⃣ compress other images with medium quality
+        // compress other images with medium quality
         await imagemin(["public/Image/Projects-image/*.{jpg,png}"], {
             destination: "public/Image-optimized/Projects-image",
             plugins: [
