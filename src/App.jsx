@@ -52,7 +52,7 @@ function App() {
         <Footer />
       </Section>
 
-      <a style={{ opacity: scrollToTopVisible ? .7 : 0 }} href="#up" className="scroll-to-top"> <FontAwesomeIcon size='lg' icon={faAngleUp} /> </a>
+      <a style={{ opacity: scrollToTopVisible ? .7 : 0, display: scrollToTopVisible ? "block" : 'none' }} href="#up" className="scroll-to-top"> <FontAwesomeIcon size='lg' icon={faAngleUp} /> </a>
 
     </div >
   )

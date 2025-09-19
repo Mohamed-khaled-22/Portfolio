@@ -1,14 +1,13 @@
 export const myProjects = [
     {
-        imgSrc: 'E-commerce.png',
-        projectName: 'E-commerce',
-        projectDescription:
-            'E-commerce is a modern online store built with React and Vite, featuring product browsing, detailed pages, and a shopping cart. It uses React Router for smooth navigation and Redux for state management, all presented in a clean responsive layout with a user-friendly experience.',
-        liveDemo: 'https://mohamed-khaled-22.github.io/E-commerce/',
-        gitHub: 'https://github.com/Mohamed-khaled-22/E-commerce',
+        imgSrc: 'ELASY-Store.jpg',
+        projectName: 'ELASY-Store',
+        projectDescription: "An E-commerce front-end store for the latest PC components, developed with React, Redux, React Router, and styled with Tailwind CSS. It includes user login UI, dynamic product categories, search functionality, add-to-cart with quantity management, and a fake payment flow — all powered by a local mock API for product data.",
+        liveDemo: 'https://mohamed-khaled-22.github.io/ELASY-Store/',
+        gitHub: 'https://github.com/Mohamed-khaled-22/ELASY-Store',
         projectType: 'React',
-        isDone: false
-    }, 
+        isDone: true
+    },
     {
         imgSrc: 'Portfolio.png',
         projectName: 'Portfolio',
