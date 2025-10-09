@@ -12,7 +12,20 @@ header .logo {
     display: block;
     font-size: 30px;
     font-weight: bolder;
-    color: var(--blue);
+    background: linear-gradient(90deg, #007CF0, #00DFD8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite alternate;
+}
+
+@keyframes gradientMove {
+    from {
+        background-position: 0%
+    }
+
+    to {
+        background-position: 100%
+    }
 }
 
 header>nav>ul {
@@ -53,6 +66,7 @@ header>nav>ul>li.link a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: var(--transition-tm);
 }
+
 
 .mood .mood-icon,
 .toggle .toggle-menu {
@@ -100,8 +114,8 @@ header>nav>ul>li.link a {
     left: 0;
     z-index: 100;
     background-color: rgba(40, 40, 48, 0.72);
+    backdrop-filter: blur(5px);
 }
-
 
 .modal ul {
     flex-direction: column;
@@ -167,14 +181,23 @@ header>nav>ul>li.link a {
         padding: 2rem 1rem;
     }
 
-    header nav,
-    .logo-div {
+    header nav {
         display: none;
     }
 
     .toggle {
         display: block;
+        order: 1;
     }
+
+    .logo-div {
+        order: 2;
+    }
+
+    .mood-div {
+        order: 3;
+    }
+
 
 }
 

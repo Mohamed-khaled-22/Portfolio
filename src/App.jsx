@@ -27,7 +27,6 @@ function App() {
 
   return (
     <div id='up' className='container'>
-
       <Header />
 
       <Hero />

@@ -10,6 +10,13 @@
 .left-section,
 .right-section {
     will-change: transform, opacity;
+
+}
+
+.right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .left-section {
@@ -73,7 +80,7 @@
     display: flex;
     align-items: flex-end;
     user-select: none;
-    width: fit-content;
+    width: 80%;
     position: relative;
     transition: var(--transition-tm);
     animation: upDown 2s linear infinite;
