@@ -40,7 +40,7 @@ export default function Projects() {
                         <li onClick={() => { setActBtn("All") }} className={actBtn === 'All' ? 'active' : null}>All</li>
                         <li onClick={() => { setActBtn("CSS") }} className={actBtn === 'CSS' ? 'active' : null}>HTML&CSS</li>
                         <li onClick={() => { setActBtn("JavaScript") }} className={actBtn === 'JavaScript' ? 'active' : null}>JavaScript</li>
-                        <li onClick={() => { setActBtn("React") }} className={actBtn === 'React' ? 'active' : null}>React</li>
+                        <li onClick={() => { setActBtn("React") }} className={actBtn === 'React' ? 'active' : null}>React || Next</li>
                     </ul>
                 </motion.div>
 

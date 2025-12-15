@@ -1,5 +1,14 @@
 export const myProjects = [
     {
+        imgSrc: 'creatx.jpg',
+        projectName: 'Creatx',
+        projectDescription: 'Creatx is a professional business website built for a real digital marketing and content creation company. Developed using Next.js, Tailwind CSS, and Framer Motion, the project emphasizes performance, SEO optimization, and modern UI/UX. It showcases the company’s services, brand vision, and marketing solutions through a responsive layout and smooth animations, providing a strong and credible online presence for a real-world business.',
+        liveDemo: 'https://creatx-ecru.vercel.app/',
+        gitHub: 'https://github.com/Mohamed-khaled-22/ELASY-Store',
+        projectType: 'React',
+        isDone: false
+    },
+    {
         imgSrc: 'ELASY-Store.jpg',
         projectName: 'ELASY-Store',
         projectDescription: "An E-commerce front-end store for the latest PC components, developed with React, Redux, React Router, and styled with Tailwind CSS. It includes user login UI, dynamic product categories, search functionality, add-to-cart with quantity management, and a fake payment flow — all powered by a local mock API for product data.",
