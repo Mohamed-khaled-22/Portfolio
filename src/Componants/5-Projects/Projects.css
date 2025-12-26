@@ -162,10 +162,9 @@
 /* media queries */
 @media (max-width: 550px) {
 
-      .container-projects .filter-buttons ul li {
-        padding: 6px 12px;
-        font-size: .8rem;
- 
-    }  
+    .container-projects .filter-buttons ul li {
+        padding: 4px 8px;
+        font-size: .7rem;
+    }
 
 }

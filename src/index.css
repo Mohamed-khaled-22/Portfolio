@@ -62,7 +62,6 @@ a {
 
 
 .container {
-  width: 90%;
   margin: 0 auto;
   padding: 0 20px;
   background-color: var(--secondary);
@@ -138,34 +137,20 @@ a {
 /* sm screens */
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
 }
 
 /* md screens */
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 95%;
   }
 }
 
 /* lg screens */
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
-  }
-}
-
-/* xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-/* xxl screens */
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1320px;
+    max-width: 90%;
   }
 }

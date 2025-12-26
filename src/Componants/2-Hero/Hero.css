@@ -78,17 +78,23 @@
 
 .avatar {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     user-select: none;
     width: 80%;
-    position: relative;
     transition: var(--transition-tm);
     animation: upDown 2s linear infinite;
 }
 
+.avatar a {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
 .avatar img {
     padding: 5px;
-    max-width: 100%;
+    max-width: 65%;
     border-radius: 50%;
     box-shadow:
         0 0 0 3px var(--ring),
@@ -118,7 +124,7 @@
     border-radius: 50% !important;
     position: absolute;
     bottom: -10px;
-    left: 53%;
+    left: 50%;
     transform: translateX(-50%);
     background-color: #fff !important;
     transition: var(--transition-tm);
@@ -211,6 +217,26 @@
     .download button {
         padding: 10px 15px;
         font-size: 13px;
+    }
+
+    .avatar img {
+        padding: 3px;
+        max-width: 85%;
+    }
+
+
+
+    .avatar .check-icon {
+        width: 20px;
+        height: 20px;
+        color: var(--blue);
+        border-radius: 50% !important;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff !important;
+        transition: var(--transition-tm);
     }
 
 }

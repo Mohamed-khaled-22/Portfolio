@@ -91,10 +91,9 @@ export default function Hero() {
                         <motion.img
                             src={import.meta.env.BASE_URL + "Image-optimized/Hero/Hero.jpg"}
                             alt="Hero"
-                            transition={{ type: "spring", stiffness: 200, damping: 10 }}
                         />
-                    </a>
                     <FontAwesomeIcon className='check-icon' size='lg' icon={faCircleCheck} />
+                    </a>
                 </div>
             </motion.div>
 
