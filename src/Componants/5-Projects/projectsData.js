@@ -1,10 +1,19 @@
 export const myProjects = [
     {
+        imgSrc: 'reactDashboard.jpg',
+        projectName: 'Management System',
+        projectDescription: 'A React-based dashboard built with pure CSS as a volunteer project to support a university graduation team. Features include project and task management, task status tracking, live search, and Light/Dark mode, with a strong focus on clean code and user experience.',
+        liveDemo: 'https://mohamed-khaled-22.github.io/dashboard-react/',
+        gitHub: 'https://github.com/Mohamed-khaled-22/dashboard-react',
+        projectType: 'React',
+        isDone: true
+    },
+    {
         imgSrc: 'creatx.jpg',
         projectName: 'Creatx',
         projectDescription: 'Creatx is a professional business website built for a real digital marketing and content creation company. Developed using Next.js, Tailwind CSS, and Framer Motion, the project emphasizes performance, SEO optimization, and modern UI/UX. It showcases the company’s services, brand vision, and marketing solutions through a responsive layout and smooth animations, providing a strong and credible online presence for a real-world business.',
         liveDemo: 'https://creatx-ecru.vercel.app/',
-        gitHub: 'https://github.com/Mohamed-khaled-22/ELASY-Store',
+        gitHub: 'https://github.com/Mohamed-khaled-22',
         projectType: 'React',
         isDone: false
     },
@@ -121,7 +130,7 @@ export const myProjects = [
         imgSrc: 'todolist.png',
         projectName: 'To-Do-List',
         projectDescription:
-            'To-Do List is a simple task manager built with pure HTML, CSS, and JavaScript. It allows users to add and delete tasks in a responsive design.',
+            'To-Do List is a simple task manager built with pure HTML, CSS, and JavaScript. It allows users to add, and delete functionality within a responsive and polished interface.',
         liveDemo: 'https://mohamed-khaled-22.github.io/To-Do-List/',
         gitHub: 'https://github.com/Mohamed-khaled-22/To-Do-List',
         projectType: 'JavaScript',
