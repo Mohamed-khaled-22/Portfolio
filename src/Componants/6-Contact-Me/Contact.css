@@ -1,0 +1,155 @@
+.contact-section {
+    margin: var(--section-mr) 0;
+    border-top: 1px solid var(--border);
+    padding: var(--section-p) 20px;
+}
+
+.contact-section>p {
+    text-align: center;
+    color: var(--subtitle);
+    font-size: 16px;
+    margin: 30px;
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+
+.contact-section .contact-info p {
+    color: var(--subtitle);
+    text-transform: capitalize;
+}
+
+.contact-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-section .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.contact-section .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-section .form-group label {
+    color: var(--subtitle);
+}
+
+.contact-section .form-group input,
+.contact-section .form-group textarea {
+    background-color: var(--bg-header);
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--title);
+    transition: var(--transition-tm);
+    outline: none;
+}
+
+.contact-section .form-group input:focus,
+.contact-section .form-group textarea:focus {
+    border-color: rgb(45 212 191);
+}
+
+.contact-section .form-group textarea {
+    resize: none;
+    min-height: 150px;
+}
+
+.contact-form .button {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid var(--border);
+    background-color: var(--blue);
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: var(--transition-tm);
+    width: fit-content;
+
+}
+
+.contact-form .button:hover {
+    background-color: rgba(53, 53, 255, 0.839)
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+
+    span {
+        color: red;
+    }
+}
+
+.contact-animation {
+    max-width: 30%;
+    text-align: center;
+}
+
+.contact-animation img {
+    max-width: 90%;
+    position: relative;
+    top: -40px;
+    animation: waveAnimation 1.5s linear infinite;
+}
+
+@media (max-width:768px) {
+
+    .contact-section>p {
+        text-align: center;
+        color: var(--subtitle);
+        font-size: 16px;
+        margin: 20px 0px;
+        text-transform: capitalize;
+        line-height: 1.5;
+    }
+
+
+    .contact-form .button {
+
+        width: 100%;
+
+    }
+
+    .contact-section .contact-animation {
+        display: none;
+    }
+}
+
+@keyframes waveAnimation {
+
+
+
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,36 @@
+.skills-section {
+    margin: var(--section-mr) 0;
+    padding: var(--section-p) 20px;
+    border-top: 1px solid var(--border);
+}
+
+.skills-section .container-skills {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 30px;
+}
+
+.skills-section .skill {
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform var(--transition-tm);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section .skill:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill.github svg {
+    fill: var(--title) !important;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+    .skills-section .container-skills {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    }
+}
