@@ -29,12 +29,12 @@ export default function About() {
                 transition={{ duration: 0.8, delay: 0.4 }}
             >
                 Hi, I’m Mohamed Khaled, a Front-End Developer with over 2 years of experience building modern, responsive, and high-performance web interfaces.
-                I specialize in JavaScript, HTML, CSS, Bootstrap, Tailwind, Sass, React, Redux, and Next.js.
+                <br /> I specialize in JavaScript, HTML, CSS, Bootstrap, Tailwind, Sass, React, Redux, and Next.js.
                 My unique strength is turning complex ideas into fast, pixel-perfect, and highly interactive user experiences.
-                I focus on writing clean, scalable, and maintainable code while optimizing performance and usability.
-                I have a strong eye for UI/UX details, ensuring designs feel smooth, modern, and intuitive.
-                I’m a fast learner who adapts quickly to new technologies and industry trends.
-                Beyond coding, I bring strong problem-solving, teamwork, and communication skills.
+                I focus on writing clean, scalable, and maintainable code while optimizing performance and usability.<br />
+                I have a strong eye for UI/UX details, ensuring designs feel smooth, modern, and intuitive.<br />
+                I’m a fast learner who adapts quickly to new technologies and industry trends.<br />
+                Beyond coding, I bring strong problem-solving, teamwork, and communication skills.<br />
                 My goal is to build digital products that stand out visually, perform efficiently, and deliver real business value.
             </motion.p>
         </motion.div>
